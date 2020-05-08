@@ -70,3 +70,37 @@ https://docs.npmjs.com/about-semantic-versioning
 
 #### 
 
+## Mono Repository
+
+![img](https://miro.medium.com/max/1342/1*jXZ26bo8TQE1Q0RBMan8kQ.jpeg)
+
+
+
+Monorepo 는 single version controlled repository로, 여러 개의 분리된 프로젝트를 하나의 레포지토리로 관리한다. 이 방식은 공유되는 코드를 통합하고, 중복되는 로직을 피하고, 팀의 협업에 도움을 줄 수 있다.
+
+#### Angular 에서 MonoRepo 구현하는 법
+
+```bash
+ng generate application <project-name>
+```
+
+위 명령어로 프로젝트를 만들면 `projects/<project-name>`으로 프로젝트가 생성된다.
+
+생성한 애플리케이션을 실행하려면 
+
+```bash
+ng serve --project=<project-name> --port=4021
+```
+
+빌드하려면
+
+```bash
+ng build --project <project-name> --prod
+```
+
+공용으로 사용되는 library 만들 때!
+
+```bash
+ng generate library <lib-name>
+```
+
