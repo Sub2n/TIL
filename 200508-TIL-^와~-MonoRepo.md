@@ -68,7 +68,7 @@ https://docs.npmjs.com/about-semantic-versioning
 
 
 
-#### 
+
 
 ## Mono Repository
 
@@ -104,3 +104,10 @@ ng build --project <project-name> --prod
 ng generate library <lib-name>
 ```
 
+
+
+---
+
+**Reference**
+
+https://www.c-sharpcorner.com/article/project-setup-with-mono-repo-angular-architecture/
